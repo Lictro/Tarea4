@@ -30,6 +30,7 @@ Character::Character(SDL_Renderer* renderer, int x, int y)
     moves["punch"]=getMove(renderer,"punch",3);
     moves["walk"]=getMove(renderer,"walk",5);
     moves["hadouken"]=getMove(renderer,"hadouken",4);
+    moves["stand"]=getMove(renderer,"stand",1);
 
     this->current_move = "idle";
     this->current_sprite = 0;
@@ -88,11 +89,19 @@ void Character::logic()
             this->current_sprite = 0;
         }
     }
-    else if( currentKeyStates[ SDL_SCANCODE_S ] )
+    else if( currentKeyStates[ SDL_SCANCODE_S] )
     {
         if(moves["hadouken"]->canCancel(this->current_move))
         {
             this->current_move = "hadouken";
+            this->current_sprite = 0;
+        }
+    }
+    else if( currentKeyStates[ SDL_SCANCODE_X] )
+    {
+        if(moves["stand"]->canCancel(this->current_move))
+        {
+            this->current_move = "stand";
             this->current_sprite = 0;
         }
     }

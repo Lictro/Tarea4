@@ -642,3 +642,43 @@
 1455628612 source:c:\users\luis alvarez\downloads\fighterdragon-master\sprite.cpp
 	"Sprite.h"
 
+1455911220 source:c:\users\luis alvarez\documents\github\tarea4\fighterdragon_luis\character.cpp
+	"Character.h"
+
+1455628612 c:\users\luis alvarez\documents\github\tarea4\fighterdragon_luis\character.h
+	<iostream>
+	<map>
+	<fstream>
+	"Move.h"
+
+1455900437 c:\users\luis alvarez\documents\github\tarea4\fighterdragon_luis\move.h
+	<SDL.h>
+	<SDL_image.h>
+	<iostream>
+	<vector>
+	"Sprite.h"
+
+1455900447 c:\users\luis alvarez\documents\github\tarea4\fighterdragon_luis\sprite.h
+	<SDL.h>
+	<SDL_image.h>
+	<iostream>
+	<vector>
+	"Hitbox.h"
+
+1455628612 c:\users\luis alvarez\documents\github\tarea4\fighterdragon_luis\hitbox.h
+
+1455628612 source:c:\users\luis alvarez\documents\github\tarea4\fighterdragon_luis\hitbox.cpp
+	"Hitbox.h"
+
+1455903308 source:c:\users\luis alvarez\documents\github\tarea4\fighterdragon_luis\main.cpp
+	<SDL.h>
+	<SDL_image.h>
+	<iostream>
+	"Character.h"
+
+1455628612 source:c:\users\luis alvarez\documents\github\tarea4\fighterdragon_luis\move.cpp
+	"Move.h"
+
+1455628612 source:c:\users\luis alvarez\documents\github\tarea4\fighterdragon_luis\sprite.cpp
+	"Sprite.h"
+

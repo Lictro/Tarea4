@@ -34,7 +34,7 @@ int main( int argc, char* args[] )
     }
 
     //Init textures
-    background = IMG_LoadTexture(renderer,"fondo.png");
+    background = IMG_LoadTexture(renderer,"fondo.gif");
     rect_background.x = 0;
     rect_background.y = 0;
     rect_background.w = 500;
